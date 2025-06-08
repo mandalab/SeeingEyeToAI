@@ -1,0 +1,22 @@
+dataset: memento
+
+# RAW DATA PROCESSING
+data_directory: /path/to/input_data/memento_new                             # path to fixations
+video_directory: /path/to/eyetracking/memento_eyetracking_videos            # path to videos
+output_file: /path/to/pkl_files/eyetracking_data/memento_fixation_gBr.pkl   
+
+# NUMERICAL CONSTANTS
+num_frames: 5                                                               # 7 for videomem
+distance_to_screen: 13.77
+screen_height_in: 23.5
+screen_resolution_y: 768
+screen_resolution: [1024, 768]
+visual_angle: 4
+
+# GAZE SIMILARITY
+eyetracking_path: /path/to/eyetracking_data/memento_fixation_gBr.pkl        # path to processed human attention
+model_path: /path/to/model_data/att_memento_vision_only_pyramid.pkl         # path to processed model attention
+dataset: memento
+figures_path: /path/to/figures/MEMENTO_SIMILARITY
+metrics: ['AUC_Judd', 'NSS', 'CC', 'KLD']                                   # AUC Percentile is calculated separately
+
