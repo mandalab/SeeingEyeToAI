@@ -47,6 +47,7 @@ The Memento dataset can be downloaded from [http://memento.csail.mit.edu/#Datase
 ├── attention.py           # Attention matrix extraction
 ├── panoptic.py            # Panoptic segmentation
 ├── requirements.txt       # Python dependencies
+├── eyetracking/           # Eye-tracking data and related processing
 ├── utils/
 │   ├── model.py           # Transformer model implementation
 │   └── dataset.py         # Dataset handling
