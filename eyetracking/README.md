@@ -25,7 +25,7 @@ VIDEOMEM_EYETRACKING_CODE/
 
 ## 📁 `dataset/`
 
-This directory is a placeholder our **small-scale eye-tracking dataset**, collected from 10 participants on subsets of videos from the Memento10k and VideoMem datasets. We have not been able to push this to the github repository because of size limitations.  
+This directory is a placeholder our **small-scale eye-tracking dataset**, collected from 10 participants on subsets of videos from the Memento10k and VideoMem datasets. We have not been able to push this to the github repository because of size limitations. Instead, the dataset can be found at: [EyeTracking Dataset](https://zenodo.org/records/15637711)
 
 Each subdirectory corresponds to a participant session:
 - `memento_fixations/` – Fixation data for Memento videos.
